@@ -67,8 +67,8 @@ console.log(instructor);
 
 //API format
 
-{
-    "name": "Anas",
-    "coursename": "Js in Hindi",
-    "Price": "Free"
-}
+// {
+//     "name": "Anas",
+//     "coursename": "Js in Hindi",
+//     "Price": "Free"
+// }
