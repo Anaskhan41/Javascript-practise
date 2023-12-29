@@ -1,0 +1,12 @@
+// javascript Execution context (EC)
+
+// global Execution context
+// function Execution context
+// eval Execution context
+
+// the code run in two phases
+
+// first one is (memory creation phase, memory phase or creation phase)
+// second one is (Execution phase)
+
+// LIFO - Last in first out
