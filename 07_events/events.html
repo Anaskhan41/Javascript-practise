@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>events</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #414141; color: aliceblue;">
+  <h2>Amazing Images</h2>
+  <div>
+    <ul id="images">
+      <li><img width="200px" id="car" src="https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg" alt=""></li>
+      <li><img width="200px" id="bike" src="https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""></li>
+      <li><img width="200px" id="cat" src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""></li>
+      <li><img width="200px" id="dog" src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg" alt=""></li>
+      <li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
+    </ul>
+  </div>
+</body>
+<script>
+  document.querySelector('#images').addEventListener('click', function(e){
+    if(e.target.tagName === "IMG") {
+      let removeIt = e.target.parentNode
+      removeIt.remove()
+    }
+  })
+</script>
+</html>
